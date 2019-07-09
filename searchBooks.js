@@ -29,7 +29,7 @@ function apiSearch(event) {
                                     <div class="book_author">${item.author_name}</div>
                                     <img src="${urlCover + item.cover_i + '-M.jpg'}" class="img_cover" ${dataInfo}>
                                     <div class = "onlineBook">
-                                    <a href = "#" target="_blank">READ ONLINE</a></button>
+                                        <a href = "#" target="_blank">READ</a></button>
                                     </div>
                                 </div>`;
                     }
@@ -39,8 +39,8 @@ function apiSearch(event) {
                                     <div class="book_author">${item.author_name}</div>
                                     <img src="${'1.jpg'}" class="img_cover" ${dataInfo} width ="180" height: 277px>
                                     <div class = "onlineBook">
-                                    <a href = "#" target="_blank">READ ONLINE</a></button>
-                                </div>
+                                        <a href = "#" target="_blank">READ</a></button>
+                                    </div>
                                 </div>`;
                     }
                 });
